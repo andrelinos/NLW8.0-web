@@ -1,5 +1,5 @@
 <div align="center" id="top">
-  <img src="./.github/images/nlw.png" alt="Web" />
+  <img src="./.github/capa.png" alt="Walpaper" />
 
   &#xa0;
 
@@ -33,12 +33,12 @@
 <hr> -->
 
 <p align="center">
-  <a href="#dart-about">Sobre</a> &#xa0; | &#xa0;
-  <a href="#sparkles-features">Funcionalidades</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requisitos</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Iniciando</a> &#xa0; | &#xa0;
-  <a href="#memo-license">Licença</a> &#xa0; | &#xa0;
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0;
+  <a href="#sparkles-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requisitos">Requisitos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-iniciando-o-projeto">Iniciando</a> &#xa0; | &#xa0;
+  <a href="#memo-licen%C3%A7a">Licença</a> &#xa0; | &#xa0;
   <a href="https://github.com/andrelinos" target="_blank">Autor</a>
 </p>
 
@@ -51,14 +51,24 @@ Descrição do projeto
 ## :sparkles: Funcionalidades ##
 
 :heavy_check_mark: Funcionalidade ao clicar no botão Feedback;\
-:heavy_check_mark: Abrir Popover;\
+:heavy_check_mark: Abrir Popover;
+
+## 💻 Telas da aplicação
+
+<div align="center">
+  <img src="./.github/nlw.png" alt="Capa" />
+  <img src="./.github/feedback-widget.png" alt="Widget Button" />
+  <img src="./.github/feedback-widget-b.png" alt="Widget Mensagem" />
+  <img src="./.github/feedback-widget-success.png" alt="Widget Sucesso" />
+
+  <img src="./.github/color-options.png alt="Opções de cores" />
+
+  </div>
 
 ## :rocket: Tecnologias ##
 
 Este projeto foi feito usando as seguintes tecnologias
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
