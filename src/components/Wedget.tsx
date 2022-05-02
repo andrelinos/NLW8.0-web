@@ -4,7 +4,7 @@ import { Popover } from '@headlessui/react';
 
 export function Widget() {
     return (
-        <div className="w-screen h-screen flex  justify-center bg-gradient-to-r from-brand-500 to-fuchsia-500 bg-[url('./.github/nlw.png')]">
+        <div className="w-screen h-screen flex  justify-center bg-gradient-to-r from-brand-500 to-fuchsia-500 bg-[url('/nlw.png')]">
             <Popover className="absolute bottom-5 right-5 ">
                 <Popover.Panel className="text-white p-2">
                     Hello World
