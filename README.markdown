@@ -35,6 +35,7 @@
 <p align="center">
   <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0;
   <a href="#sparkles-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
+  <a href="#-telas-da-aplica%C3%A7%C3%A3o)">Telas</a> &#xa0; | &#xa0;
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requisitos">Requisitos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-iniciando-o-projeto">Iniciando</a> &#xa0; | &#xa0;
@@ -61,7 +62,7 @@ Descrição do projeto
   <img src="./.github/feedback-widget-b.png" alt="Widget Mensagem" />
   <img src="./.github/feedback-widget-success.png" alt="Widget Sucesso" />
 
-  <img src="./.github/color-options.png alt="Opções de cores" />
+  <img src="./.github/color-options.png" alt="Opções de cores" />
 
   </div>
 
@@ -70,8 +71,12 @@ Descrição do projeto
 Este projeto foi feito usando as seguintes tecnologias
 
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
+- [Vite](https://vitejs.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Tailwindss](https://tailwindcss.com/)
+- [PostCSS](https://postcss.org/)
+- [Phosphor](https://phosphoricons.com/)
+- [Headlessui](https://headlessui.dev/)
 
 ## :white_check_mark: Requisitos ##
 
