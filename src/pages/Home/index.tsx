@@ -4,12 +4,12 @@ interface HomeProps {
   screenshot: string | null;
 }
 
-export function Home({ screenshot }: HomeProps) {
+export function Home(/* { screenshot }: HomeProps */) {
   return (
     <div className="w-screen h-screen flex relative justify-center  bg-[url('/nlw.png')] bg-no-repeat bg-cover bg-center">
       <WidgetButton />
 
-      {screenshot && (
+      {/* {screenshot && (
         <div
           style={{
             backgroundImage: `url(${screenshot})`,
@@ -18,7 +18,7 @@ export function Home({ screenshot }: HomeProps) {
           }}
           className="w-[80%] h-[80%] mt-10  absolute"
         />
-      )}
+      )} */}
     </div>
   );
 }
