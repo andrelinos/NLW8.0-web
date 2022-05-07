@@ -2,8 +2,10 @@ import { useState } from "react";
 import html2canvas from "html2canvas";
 import { Camera, Eye, Trash } from "phosphor-react";
 import { Loading } from "../../Loading";
+import { ModalScreen } from "../../Modal";
+import Modal from "react-modal";
 
-interface ScreenshotButtonProps {
+export interface ScreenshotButtonProps {
   screenshot: string | null;
   onScreenshotTook: (screenshot: string | null) => void;
 }
@@ -45,7 +47,7 @@ export function ScreenshotButton({
         <button
           type="button"
           className="hover:text-blue-300 transition"
-          // onClick={() => onScreenshotTook('')}
+          // onClick={() => setIsOpen(true)}
         >
           <Eye weight="fill" />
         </button>

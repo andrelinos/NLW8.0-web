@@ -47,6 +47,8 @@ export function WidgetForm() {
         <a
           className="underline underline-offset-2 hover:text-purple-500 transition"
           href="https://github.com/andrelinos"
+          title="Andrelino Silva"
+          target="_blank"
         >
           Andrelino Silva
         </a>
