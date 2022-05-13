@@ -2,7 +2,7 @@ export function Main() {
   return (
     <section
       id="home"
-      className="w-[100%] min-h- max-w-[71rem] px-6 mx-auto flex flex-col "
+      className="w-[100%] min-h- max-w-[71rem] px-6 mx-auto flex flex-col"
     >
       <div className="flex ">
         <div className="flex-1 pt-20  max-w-[37.8125rem]">
