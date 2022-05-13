@@ -9,7 +9,7 @@ export function Services() {
           <h4 className="max-w-md text-brand-green-500 leading-5 text-sm uppercase font-bold text-center mb-6">
             Serviços
           </h4>
-          <h2 className="max-w-[31.0625rem] text-[2.5rem] font-bold leading-[3.25rem] text-center">
+          <h2 className="max-w-[31.0625rem] text-[1.875rem] lg:text-[2.5rem] font-bold leading-[2.25rem] lg:leading-[3.25rem] text-center">
             Como podemos ajudá-lo a se sentir melhor?
           </h2>
         </header>

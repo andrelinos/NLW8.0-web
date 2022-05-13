@@ -9,6 +9,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -18,12 +22,17 @@ h6 {
   font-family: "DM sans", sans-serif;
 }
 
-.ellipsis-this {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
+body::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(0, 133, 111, 1);
+}
+
+body::-webkit-scrollbar-track {
+  background: #dce9e2;
 }
 
 .card-hover-service:hover .ellipsis-this {
@@ -52,4 +61,23 @@ h6 {
 
 .ellipsis-this::-webkit-scrollbar-track {
   background: rgba(0, 0, 0, 0.2);
+}
+
+.scroll-nav {
+  background: rgba(0, 133, 111, 1);
+  top: 0;
+  color: white;
+}
+
+.logo-nav img path {
+  fill: white;
+}
+
+.scroll-nav button.open-menu path[stroke*="#00856F"] {
+  stroke: white;
+}
+
+.button-contact-top {
+  border-color: #fff;
+  color: #fff;
 }
