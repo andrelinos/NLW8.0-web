@@ -26,17 +26,30 @@ h6 {
   text-overflow: ellipsis;
 }
 
-.ellipsis-this:hover {
+.card-hover-service:hover .ellipsis-this {
   position: absolute;
   background-color: white;
   display: flex;
-  top: 1rem;
-
-  width: 19.375rem;
+  top: 1.5rem;
+  scroll-behavior: smooth;
+  width: 18.688rem;
   height: 10rem; /* 160px */
   -webkit-line-clamp: 15;
   -webkit-box-orient: vertical;
   overflow-y: auto;
   text-overflow: ellipsis;
   z-index: 9;
+}
+
+.ellipsis-this::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 0.25rem;
+}
+
+.ellipsis-this::-webkit-scrollbar-thumb {
+  background: rgba(0, 133, 111, 1);
+}
+
+.ellipsis-this::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
 }

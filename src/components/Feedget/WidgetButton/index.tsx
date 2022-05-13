@@ -5,12 +5,12 @@ import { WidgetForm } from "../WidgetForm";
 
 export function WidgetButton() {
   return (
-    <Popover className=" bottom-4 right-4 fixed md:bottom-8 md:right-8 flex flex-col items-end ">
+    <Popover className="bottom-4 right-4 fixed md:bottom-8 md:right-8 flex flex-col items-end z-20">
       <Popover.Panel className="text-white">
         <WidgetForm />
       </Popover.Panel>
       <Popover.Button
-        className="bg-brand-green-500 rounded-full px-3 h-12 text-white flex items-center group "
+        className="bg-brand-green-500 rounded-full px-3 min-w-[3.25rem] h-[3.25rem] text-white border-2 border-white flex items-center group "
         // onClick={() => setIsWidgetOpen(!isWidgetOpen)}
       >
         <ChatTeardropDots className="w-6 h-6" />

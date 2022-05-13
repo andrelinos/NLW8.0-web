@@ -4,14 +4,14 @@ export function Contact() {
       id="contact"
       className="w-[100%] max-w-[71rem] py-40 bg-white  flex justify-center mx-auto flex-col"
     >
-      <div className="grid grid-cols-2 gap-[6.7rem]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-[6.7rem]">
         <div className="order-1 self-center">
-          <header>
-            <h2 className="max-w-[25.25rem] mb-10 text-[2.5rem] font-bold leading-[3.25rem]">
+          <header className="w-[100%] text-center flex justify-center lg:text-left lg:flex lg:justify-start">
+            <h2 className="max-w-[25.25rem] mb-10 text-[1.875rem] lg:text-[2.5rem] font-bold leading-[2.25rem] lg:leading-[3.25rem] text-center  lg:text-left">
               Entre em contato com a gente!
             </h2>
           </header>
-          <div className="content">
+          <div className="">
             <ul>
               <li className="flex ">
                 <img

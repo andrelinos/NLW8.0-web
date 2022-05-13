@@ -10,8 +10,8 @@ export function Header() {
   return (
     <nav id="navigation" className="w-[100%] h-[72px] px-6 bg-brand-green-200">
       <div className="max-w-[71rem] h-[100%] flex justify-between items-center mx-auto">
-        <a className="logo" href="#home">
-          <img src="./assets/images/logo.svg" alt="" />
+        <a className="" href="#home">
+          <img src="./assets/images/logo-green.svg" alt="Logo do site" />
         </a>
 
         <ul className="flex gap-4 text-brand-green-500 leading-[1.9375rem] font-normal  font-w text-base">

@@ -1,5 +1,5 @@
 import { Header } from "./components/Header";
-import { WidgetButton } from "./components/WidgetButton";
+import { WidgetButton } from "./components/Feedget/WidgetButton";
 import { Home } from "./pages";
 
 export function App() {

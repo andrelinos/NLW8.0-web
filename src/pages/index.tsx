@@ -7,19 +7,19 @@ import { Services } from "../components/pages/Services";
 export function Home() {
   return (
     <>
-      <div className="w-[100%] z-10 bg-brand-green-200">
+      <div className="w-[100%] px-6 z-10 bg-brand-green-200">
         <Main />
       </div>
-      <div className="w-[100%] bg-brand-green-100">
+      <div className="w-[100%] px-6 bg-brand-green-100">
         <Services />
       </div>
-      <div className="w-[100%] bg-brand-bege-300">
+      <div className="w-[100%] px-6 bg-brand-bege-300">
         <About />
       </div>
-      <div className="w-[100%] bg-white">
+      <div className="w-[100%] px-6 bg-white">
         <Contact />
       </div>
-      <div className="w-[100%] bg-white">
+      <div className="w-[100%] px-6 bg-brand-green-500">
         <Footer />
       </div>
     </>

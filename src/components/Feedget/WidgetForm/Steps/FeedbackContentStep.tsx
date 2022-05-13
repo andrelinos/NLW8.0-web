@@ -4,7 +4,7 @@ import { FeedbackTypesProps } from "..";
 import { CloseButton } from "../../CloseButton";
 import { feedbackTypes } from "../feedbackTypes";
 import { ScreenshotButton } from "../ScreenShotButton";
-import { api } from "../../../services/api";
+import { api } from "../../../../services/api";
 import { Loading } from "../../Loading";
 
 interface FeedbackContentProps {
