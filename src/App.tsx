@@ -1,5 +1,13 @@
-import { Home } from "./pages/Home";
+import { Header } from "./components/Header";
+import { WidgetButton } from "./components/WidgetButton";
+import { Home } from "./pages";
 
 export function App() {
-  return <Home />;
+  return (
+    <div className=" flex relative justify-center flex-col">
+      <Header />
+      <Home />
+      <WidgetButton />
+    </div>
+  );
 }

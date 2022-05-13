@@ -5,7 +5,6 @@
 
 html,
 body {
-  @apply bg-brand-green-200 text-brand-gray-700;
   font-family: "DM sans", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -19,20 +18,25 @@ h6 {
   font-family: "DM sans", sans-serif;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 3.25rem;
-  line-height: 4rem;
-  padding-bottom: 1.5rem;
+.ellipsis-this {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-h3 {
-  font-weight: 700;
-  font-size: 3rem;
-  line-height: 4rem;
-  padding-bottom: 1.5rem;
-}
+.ellipsis-this:hover {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  top: 1rem;
 
-h4 {
-  line-height: 1.25rem;
+  width: 19.375rem;
+  height: 10rem; /* 160px */
+  -webkit-line-clamp: 15;
+  -webkit-box-orient: vertical;
+  overflow-y: auto;
+  text-overflow: ellipsis;
+  z-index: 9;
 }
