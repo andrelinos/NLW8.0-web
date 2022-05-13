@@ -2,7 +2,7 @@ import { useState } from "react";
 import html2canvas from "html2canvas";
 import { Camera, Eye, Trash } from "phosphor-react";
 import { Loading } from "../../Loading";
-import { ModalScreen } from "../../Modal";
+
 import Modal from "react-modal";
 
 export interface ScreenshotButtonProps {
