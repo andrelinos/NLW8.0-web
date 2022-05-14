@@ -15,7 +15,7 @@ export function Services() {
         </header>
         {/*  div cards */}
         <div className="flex mt-16 flex-wrap gap-6 justify-center">
-          <div className="w-[21.6875rem] h-[12.9375rem] bg-white rounded-lg p-6 relative ease-linear card-hover-service">
+          <div className="w-[21.6875rem] h-[12.9375rem] bg-white rounded-lg p-6 relative ease-linear card-hover-service overflow-hidden">
             <img src="./assets/icons/verify.svg" alt="Ícone verificado" />
             <h3 className="text-2xl font-bold my-4">Problemas digestivos</h3>
             <p className="ellipsis-this">
@@ -25,10 +25,10 @@ export function Services() {
               nossa mente.
             </p>
           </div>
-          <div className="w-[21.6875rem] h-[12.9375rem] bg-white rounded-lg p-6 relative card-hover-service">
+          <div className="w-[21.6875rem] h-[12.9375rem] bg-white rounded-lg p-6 relative ease-linear card-hover-service overflow-hidden">
             <img src="./assets/icons/verify.svg" alt="Ícone verificado" />
             <h3 className="text-2xl font-bold my-4">Saúde Hormonal</h3>
-            <p className="ellipsis-this hover:text-clip transition ease-in-out delay-150 bg-white  hover:bg-indigo-500 duration-300">
+            <p className="ellipsis-this">
               Os problemas hormonais e desequilíbrio hormonais são muito comuns
               e podem provocar vários sintomas como excesso de fome,
               irritabilidade, cansaço excessivo ou insônia. Alterações hormonais
@@ -36,7 +36,7 @@ export function Services() {
               síndrome dos ovários policísticos, por exemplo.
             </p>
           </div>
-          <div className="w-[21.6875rem] h-[12.9375rem] bg-white rounded-lg p-6 relative ease-linear card-hover-service">
+          <div className="w-[21.6875rem] h-[12.9375rem] bg-white rounded-lg p-6 relative ease-linear card-hover-service overflow-hidden">
             <img src="./assets/icons/verify.svg" alt="Ícone verificado" />
             <h3 className="text-2xl font-bold my-4">Bem-estar mental</h3>
             <p className="ellipsis-this">
@@ -45,7 +45,7 @@ export function Services() {
               outras pessoas mesmo que algo ruim aconteça.
             </p>
           </div>
-          <div className="w-[21.6875rem] h-[12.9375rem] bg-white rounded-lg p-6 relative ease-linear card-hover-service">
+          <div className="w-[21.6875rem] h-[12.9375rem] bg-white rounded-lg p-6 relative ease-linear card-hover-service overflow-hidden">
             <img src="./assets/icons/verify.svg" alt="Ícone verificado" />
             <h3 className="text-2xl font-bold my-4">Cuidados Pediátricos</h3>
             <p className="ellipsis-this">
@@ -57,7 +57,7 @@ export function Services() {
               social à criança, atendendo também às necessidades da família.
             </p>
           </div>
-          <div className="w-[21.6875rem] h-[12.9375rem] bg-white rounded-lg p-6 relative ease-linear card-hover-service">
+          <div className="w-[21.6875rem] h-[12.9375rem] bg-white rounded-lg p-6 relative ease-linear card-hover-service overflow-hidden">
             <img src="./assets/icons/verify.svg" alt="Ícone verificado" />
             <h3 className="text-2xl font-bold my-4">Autoimune e Inflamação</h3>
             <p className="ellipsis-this">

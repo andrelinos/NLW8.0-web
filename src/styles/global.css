@@ -35,21 +35,7 @@ body::-webkit-scrollbar-track {
   background: #dce9e2;
 }
 
-.card-hover-service:hover .ellipsis-this {
-  position: absolute;
-  background-color: white;
-  display: flex;
-  top: 1.5rem;
-  scroll-behavior: smooth;
-  width: 18.688rem;
-  height: 10rem; /* 160px */
-  -webkit-line-clamp: 15;
-  -webkit-box-orient: vertical;
-  overflow-y: auto;
-  text-overflow: ellipsis;
-  z-index: 9;
-}
-
+/* Cards do services */
 .ellipsis-this::-webkit-scrollbar {
   width: 0.25rem;
   height: 0.25rem;
@@ -59,25 +45,57 @@ body::-webkit-scrollbar-track {
   background: rgba(0, 133, 111, 1);
 }
 
+.ellipsis-this {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-hover-service:hover .ellipsis-this {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  top: 1.5rem;
+  scroll-behavior: smooth;
+  width: 18.688rem;
+  height: 10rem; /* 160px */
+
+  overflow-y: auto;
+
+  z-index: 9;
+}
+
 .ellipsis-this::-webkit-scrollbar-track {
   background: rgba(0, 0, 0, 0.2);
 }
 
-.scroll-nav {
-  background: rgba(0, 133, 111, 1);
+.scroll {
+  background: rgba(0, 133, 111, 1) !important;
   top: 0;
   color: white;
 }
 
-.logo-nav img path {
-  fill: white;
-}
-
-.scroll-nav button.open-menu path[stroke*="#00856F"] {
-  stroke: white;
+.menu-mobile-opened {
+  background: rgba(0, 133, 111, 1) !important;
+  color: white;
 }
 
 .button-contact-top {
   border-color: #fff;
   color: #fff;
+}
+
+.menu-web-active {
+  visibility: hidden;
+}
+
+@media screen and (min-width: 1023px) {
+  .menu-mobile-active {
+    visibility: hidden;
+  }
+  .menu-web-active {
+    visibility: visible;
+  }
 }

@@ -31,12 +31,12 @@ export function Contact() {
               </li>
             </ul>
             <a
-              className="flex justify-center rounded-full items-center w-[16.688rem] h-[3.5rem] mt-10 bg-brand-green-500 text-white font-bold text.sm uppercase"
-              href="https://wa.me/5511987654321"
+              className="flex justify-center rounded-full items-center w-[16.688rem] h-[3.5rem] mt-10 bg-brand-green-500 text-white font-bold text-sm mx-auto lg:mx-0 uppercase"
+              href="https://wa.me/5511000099991"
               target="_blank"
             >
               <img
-                className="mr-4"
+                className="mr-2"
                 src="./assets/icons/whatsapp.svg"
                 alt="Ícone do WhatsApp"
               />
