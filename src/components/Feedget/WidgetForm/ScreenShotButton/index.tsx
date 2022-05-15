@@ -30,7 +30,8 @@ export function ScreenshotButton({
   if (screenshot) {
     return (
       <div
-        className="w-10 h-10 bg-blue-400 rounded-md border-transparent flex justify-between items-end text-zinc-400 hover:text-zinc-100  transition overflow-hidden"
+        className="w-10 h-10 bg-blue-400 rounded-md border-transparent flex justify-end items-end text-zinc-400
+        hover:text-zinc-100  transition overflow-hidden"
         style={{
           backgroundImage: `url(${screenshot})`,
           backgroundPosition: "center",
@@ -44,13 +45,13 @@ export function ScreenshotButton({
         >
           <Trash weight="fill" />
         </button>
-        <button
+        {/* <button
           type="button"
           className="hover:text-blue-300 transition"
           // onClick={() => setIsOpen(true)}
         >
           <Eye weight="fill" />
-        </button>
+        </button> */}
       </div>
     );
   }

@@ -1,4 +1,11 @@
+import { useEffect, useRef, useState } from "react";
+import ModalScreen from "../../Modal";
+import { Button } from "../../Modal/Button";
+
 export function Contact() {
+  const [openModal, setOpenModal] = useState(false);
+  const cancelButtonRefModal = useRef(null);
+
   return (
     <section
       id="contact"
@@ -31,8 +38,20 @@ export function Contact() {
               </li>
             </ul>
             <a
-              className="flex justify-center rounded-full items-center w-[16.688rem] h-[3.5rem] mt-10 bg-brand-green-500 text-white font-bold text-sm mx-auto lg:mx-0 uppercase"
+              className="flex justify-center cursor-pointer rounded-full lg:hidden items-center w-[16.688rem] h-[3.5rem] mt-10 bg-brand-green-500 text-white font-bold text-sm mx-auto lg:mx-0 uppercase"
               href="https://wa.me/5511000099991"
+              target="_blank"
+            >
+              <img
+                className="mr-2"
+                src="./assets/icons/whatsapp.svg"
+                alt="Ícone do WhatsApp"
+              />
+              Agende sua consulta
+            </a>
+            <a
+              className="flex justify-center cursor-pointer rounded-full invisible lg:visible items-center w-[16.688rem] h-[3.5rem] mt-10 bg-brand-green-500 text-white font-bold text-sm mx-auto lg:mx-0 uppercase"
+              onClick={() => setOpenModal(true)}
               target="_blank"
             >
               <img
@@ -52,6 +71,11 @@ export function Contact() {
           />
         </div>
       </div>
+      <ModalScreen
+        open={openModal}
+        setOpen={setOpenModal}
+        buttonRef={cancelButtonRefModal}
+      />
     </section>
   );
 }

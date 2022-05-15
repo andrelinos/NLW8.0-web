@@ -20,18 +20,24 @@ export function MenuNavWeb({ logo }: MenuNavWebProps) {
           <img id="logo-nav" src={logo} alt="Logo do site" />
         </a>
 
-        <ul className="flex gap-4 transition-all duration-200 leading-[1.9375rem] font-normal text-brand-green-500 font-w text-base">
-          <li className="hover:font-bold border-b-2 border-solid pb-6 border-transparent hover:border-brand-green-500">
+        <ul
+          className="flex h-[100%] pt-5 gap-4 transition-all duration-200 leading-[1.9375rem]
+              font-normal text-brand-green-500 font-w text-base mb-0"
+        >
+          <li
+            className="hover:font-bold border-b-2 border-solid pb-6 border-transparent
+                hover:border-b-brand-green-500"
+          >
             <a onClick={() => closeMenu} href="#home">
               Início
             </a>
           </li>
-          <li className="hover:font-bold border-b-2 border-solid pb-6 border-transparent hover:border-brand-green-500">
+          <li className="hover:font-bold border-b-2 border-solid pb-6 border-transparent hover:border-b-brand-green-500">
             <a onClick={() => closeMenu} href="#services">
               Serviços
             </a>
           </li>
-          <li className="hover:font-bold border-b-2 border-solid pb-6 border-transparent hover:border-brand-green-500">
+          <li className="hover:font-bold border-b-2 border-solid pb-6 border-transparent hover:border-b-brand-green-500">
             <a onClick={() => closeMenu} href="#about">
               Sobre
             </a>

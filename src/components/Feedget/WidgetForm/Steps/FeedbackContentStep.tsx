@@ -48,7 +48,7 @@ export function FeedbackContentStep({
         >
           <ArrowLeft weight="bold" className="w-4 h4" />
         </button>
-        <span className="text-xl leading-6 flex items-center gap-2">
+        <span className="text-xl leading-6 flex text-brand-green-500 items-center gap-2">
           <img
             src={feedbackTypeInfo?.image?.source}
             alt={feedbackTypeInfo?.image?.alt}
@@ -73,7 +73,10 @@ export function FeedbackContentStep({
           <button
             type="submit"
             disabled={!comment.length || isSendingFeedback}
-            className="p-2 bg-brand-purple-500 rounded-md border-transparent flex-1 flex justify-center items-center text-sm hover:bg-brand-purple-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-pruple-500 transition disabled:opacity-50 disabled:hover:bg-brand-purple-500"
+            className="p-2 bg-brand-green-500 rounded-md border-transparent
+                flex-1 flex justify-center items-center text-sm hover:bg-brand-green-600
+                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900
+                focus:ring-brand-green-500 transition disabled:opacity-50 disabled:hover:bg-brand-green-500"
           >
             {isSendingFeedback ? <Loading /> : " Enviar feedback"}
           </button>

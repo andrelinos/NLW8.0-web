@@ -77,6 +77,14 @@ body::-webkit-scrollbar-track {
   color: white;
 }
 
+.scroll a {
+  color: white;
+}
+
+.scroll li:hover {
+  border-color: white;
+}
+
 .menu-mobile-opened {
   background: rgba(0, 133, 111, 1) !important;
   color: white;
@@ -98,4 +106,8 @@ body::-webkit-scrollbar-track {
   .menu-web-active {
     visibility: visible;
   }
+}
+
+.back-to-top-show {
+  visibility: visible;
 }
