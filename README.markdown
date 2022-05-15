@@ -1,12 +1,12 @@
 <div align="center" id="top">
-  <img src="./.github/capa.png" alt="Walpaper" />
+  <img src="./.github/page-feedback-open.png" alt="Walpaper" />
 
   &#xa0;
 
   <!-- <a href="https://NLW8.0---web.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">NLW #08 - Return</h1>
+<h1 align="center">NLW #08 Return - Web</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/andrelinos/NLW8.0---web?color=56BEB8">
@@ -26,9 +26,9 @@
 
 <!-- Status -->
 
-<!-- <h4 align="center"> 
+<!-- <h4 align="center">
 	🚧  Web 🚀 Under construction...  🚧
-</h4> 
+</h4>
 
 <hr> -->
 
@@ -47,17 +47,21 @@
 
 ## :dart: Sobre ##
 
-Descrição do projeto
+Aplicação desenvolvida na NLW Return apresentada no mês de maio de 2022 com trilhas Impulse e Origin com aplicações distintas, mas todas unidas neste projeto.
 
 ## :sparkles: Funcionalidades ##
 
-:heavy_check_mark: Funcionalidade ao clicar no botão Feedback;\
-:heavy_check_mark: Abrir Popover;
+:heavy_check_mark: Todos os menus funcionais\
+:heavy_check_mark: Quando o usuário abre a aplicação em computador, o botão de contato questiona se o usuário quer abrir o WhatsApp Web ou PC
+:heavy_check_mark: Botão para voltar ao topo da página para ambos os dispositivos
+:heavy_check_mark: Usuário poderá abrir a janela de feedback clicando no botão flutuante na tela e escolhe falar de um problema encontrado, uma ideia para a aplicação ou sobre outro assunto
+:heavy_check_mark: Usuário poderá enviar uma foto da tela junto com a mensagem (pega a tela completa de navegação).
+:heavy_check_mark: A menagem será enviada para o e-mail informado pelo dev, seja para estes ou em produção
 
 ## 💻 Telas da aplicação
 
 <div align="center">
-  <img src="./.github/nlw.png" alt="Capa" />
+  <img src="./.github/page-feedback-open-text-area.png" alt="Capa" />
   <img src="./.github/feedback-widget.png" alt="Widget Button" />
   <img src="./.github/feedback-widget-b.png" alt="Widget Mensagem" />
   <img src="./.github/feedback-widget-success.png" alt="Widget Sucesso" />
@@ -69,6 +73,21 @@ Descrição do projeto
 ## :rocket: Tecnologias ##
 
 Este projeto foi feito usando as seguintes tecnologias
+
+### Backend - API
+
+- [Node.js](https://nodejs.org/en/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Prisma](https://www.prisma.io/)
+- [Express](http://expressjs.com/)
+- [ts-node](https://typestrong.org/ts-node/)
+- [Nodemailer](https://nodemailer.com/)
+- [Jest](https://jestjs.io/)
+- [Jest](https://jestjs.io/)
+
+**Nota**: Para acessar o backend [clique aqui](https://github.com/andrelinos/nlw-return-impulse-server)
+
+### Frontend Web
 
 - [React](https://pt-br.reactjs.org/)
 - [Vite](https://vitejs.dev/)
@@ -86,7 +105,7 @@ Antes de iniciar você precisa :checkered_flag:, ter instalado o [Git](https://g
 
 ```bash
 # Clone this project
-$ git clone https://github.com/andrelinos/NLW8.0---web
+$ git clone https://github.com/andrelinos/NLW8.0-web
 
 # Access
 $ cd web
@@ -99,6 +118,12 @@ $ yarn start
 
 # The server will initialize in the <http://localhost:3000>
 ```
+
+## Notas importantes
+
+- Basta seguir os passos acima para que sua aplicação rode. Porém, é preciso configurar o backend para que as funcionalidades do feedback funcione corretamente.
+- Altere o arquivo **.env.examplo** para **.env.local** para que o vitejs consiga carregá-lo.
+Nota: a variável precisa iniciar com **VITE_**  para ser carregada corretamente (ex.: VITE_BASE_URL_API).
 
 ## :memo: Licença ##
 

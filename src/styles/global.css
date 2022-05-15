@@ -72,7 +72,7 @@ body::-webkit-scrollbar-track {
 }
 
 .scroll {
-  background: rgba(0, 133, 111, 1) !important;
+  background: rgba(0, 133, 111, 1);
   top: 0;
   color: white;
 }
@@ -86,7 +86,7 @@ body::-webkit-scrollbar-track {
 }
 
 .menu-mobile-opened {
-  background: rgba(0, 133, 111, 1) !important;
+  background: rgba(0, 133, 111, 1);
   color: white;
 }
 
@@ -110,4 +110,9 @@ body::-webkit-scrollbar-track {
 
 .back-to-top-show {
   visibility: visible;
+}
+
+#contact-mobile-menu {
+  color: #00856f;
+  font-weight: bold;
 }

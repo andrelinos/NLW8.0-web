@@ -44,7 +44,9 @@ export function MenuNavMobile({
               </li>
             </ul>
             <a
-              className="w-[17.125rem] h-[3.438rem] rounded-full flex justify-center items-center text-lg mx-auto mt-12 bg-white text-brand-green-600"
+              id="contact-mobile-menu"
+              className="w-[17.125rem] h-[3.438rem] rounded-full flex justify-center
+              items-center text-lg mx-auto mt-12 bg-white text-brand-green-600"
               onClick={() => setMenuOpen(false)}
               href="#contact"
             >
