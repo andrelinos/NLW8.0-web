@@ -105,10 +105,10 @@ Antes de iniciar você precisa :checkered_flag:, ter instalado o [Git](https://g
 
 ```bash
 # Clone this project
-$ git clone https://github.com/andrelinos/NLW8.0-web
+$ git clone https://github.com/andrelinos/NLW8.0-web.git
 
 # Access
-$ cd web
+$ cd NLW8.0-web
 
 # Install dependencies
 $ yarn
